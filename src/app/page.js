@@ -1,10 +1,10 @@
 import Navigation from "../components/Navigation";
 
-
 const Home = () => {
   return (
-    <div>hello world
-      <Navigation/>
+    <div>
+      hello world
+      <Navigation />
     </div>
   );
 };

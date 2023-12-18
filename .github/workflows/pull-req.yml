@@ -1,4 +1,4 @@
-name: website
+name: Personal Website
 on:
   pull_request:
     branches: [main, dev]

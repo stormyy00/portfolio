@@ -18,10 +18,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html
-      lang="en"
-      className={` ${montserrat.variable}`}
-    >
+    <html lang="en" className={` ${montserrat.variable}`}>
       <body>
         <div className="bg-web-black w-full flex items-center justify-center flex-col overflow-hidden">
           <Navigation />

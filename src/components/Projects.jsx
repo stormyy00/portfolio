@@ -9,12 +9,12 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="justify-between flex flex-col w-11/12 md:w-9/12 my-20"
+      className="justify-between flex flex-col w-full md:w-9/12 my-0"
     >
       <Title text="PROJECTS">
         <div className="h-6 w-11/12 absolute bg-web-cyan -left-4 -bottom-1 z-10" />
       </Title>
-      <div className="mt-8 pr-7 md:pr-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-8 pr-10 md:pr-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-0">
         {projects.map((project, index) => (
           <Project key={index} project={project} />
         ))}

@@ -1,19 +1,64 @@
+"use client";
 import React from "react";
-import { navigations } from "@/data/navigation";
+import { FaBars } from "react-icons/fa";
 import Link from "next/link";
+// import { Link } from "react-scroll";
+import { useState } from "react";
+import { navigations } from "@/data/navigation";
+import { FaChevronLeft } from "react-icons/fa";
 
 const Navigation = () => {
+  const [isDropdownOpen, setDropdownOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setDropdownOpen(!isDropdownOpen);
+  };
+  const closeNavbar = () => {
+    setDropdownOpen(false);
+  };
+
   return (
-    <div className="hidden z-50 md:flex justify-center bg-gradient-to-r from-web-cyan/80 to-web-black/80 backdrop-blur-md fixed top-0 w-full">
-      {navigations.map((nav, index) => (
-        <Link
-          key={index}
-          className="font-montserrat text-white text-base md:text-lg no-underline m-3 p-0 font-thin hover:cursor-pointer hover:opacity-60 hover:scale-110 duration-300"
-          href={nav.link}
+    <div className="w-full ml-3 py-2 md:mt-72">
+      <div className="fixed group z-50">
+        <button
+          onClick={toggleDropdown}
+          className={`${
+            isDropdownOpen
+              ? "opacity-0 duration-300"
+              : "opacity-100 bg-green-500 duration-300"
+          }bg-design-green-300 rounded-xl w-1/3 pl-3.5 py-2.5 drop-shadow-xl`}
         >
-          {nav.text}
-        </Link>
-      ))}
+          <FaBars className="text-white text-lg drop-shadow-md" />
+        </button>
+        <div
+          className={`${
+            isDropdownOpen
+              ? "transition-all duration-300 ease-out transform translate-y-0 opacity-100"
+              : "transition-all duration-300 ease-in  transform -translate-x-96 opacity-0"
+          } bg-green-500 p-2 ml-0 -mt-10 md:-mt-20 grid grid-col rounded-xl drop-shadow-lg `}
+        >
+          <button onClick={closeNavbar}>
+            <FaChevronLeft className="flex text-white text-xl items-center justify-start my-1 ml-1" />
+          </button>
+
+          {navigations.map((item, index) => (
+            <Link
+              // activeClass="active"
+              key={index}
+              // to={item.id}
+              onClick={() => console.log(`Clicked on ${item.name}`)}
+              href={item.link}
+              // spy={true}
+              // smooth={true}
+              // offset={0}
+              // duration={250}
+              className="flex px-2 py-1.5 text-white text-lg flex-cols gap-3 justify-start items-center no-underline hover:cursor-pointer duration-500"
+            >
+              {item.text}
+            </Link>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };

@@ -25,6 +25,18 @@ export const projects = [
     //   links: [{ Github: "https://github.com/acm-ucr/hackathon-website" }],
   },
   {
+    title: "Hackathon Website",
+    description: "Embedded System using na Arduino Microcontroller",
+    techStack: [
+      "Next.js",
+      "Tailwind",
+      "Cypress",
+      "NextAuth",
+      "Firebase",
+      "MongoDB",
+    ],
+  },
+  {
     title: "Phi Alpha Delta",
     description: "Embedded System using na Arduino Microcontroller",
     techStack: ["Next.js", "Tailwind", "Cypress", "Prettier"],

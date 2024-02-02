@@ -4,11 +4,11 @@ import snoopy from "../../public/stock.jpeg";
 
 const Project = ({ project }) => {
   return (
-    <div className="font-poppins m-4 p-4 bg-white w-11/12 h-11/12 rounded-3xl shadow-md flex flex-col items-start justify-center gap-0">
+    <div className="font-poppins m-4 p-4 bg-white w-11/12 h-5/7 rounded-3xl shadow-md flex flex-row items-center justify-center gap-0">
       <Image
         src={snoopy}
         alt="snoopy"
-        className="w-full rounded-2xl object-cover"
+        className="w-1/3 rounded-2xl object-cover"
       />
 
       <div>

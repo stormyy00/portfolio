@@ -15,27 +15,9 @@ const Landing = () => {
   return (
     <section
       id="landing"
-      className="h-[70vh] md:h-screen items-center justify-center flex flex-col w-11/12 md:w-7/12"
+      className="h-[70vh] md:h-full items-center justify-center flex flex-col w-11/12 md:w-7/12 -mt-10 md:-mt-24"
     >
-      <motion.div
-        initial="hidden"
-        animate="show"
-        className="flex flex-col items-center"
-      >
-        <motion.p
-          variants={animation}
-          transition={{
-            type: "tween",
-            ease: "easeInOut",
-            duration: 2,
-            delay: 0,
-          }}
-          className="mb-20 text-web-white font-montserrat font-regular text-3xl md:text-5xl"
-        >
-          {/* Nice to meet you!! */}
-        </motion.p>
-      </motion.div>
-      <div className="flex justtify-center items-start bg-blue">
+      <div className="flex flex-col md:flex-row justtify-center items-center md:items-start bg-blue">
         <Image src={me} alt="me" className="w-1/4 h-auto" />
         {/* <div className="bg-web-theme h-48 w-6 mx-8" /> */}
         <div className="flex justtify-center mb-16">

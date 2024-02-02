@@ -1,12 +1,20 @@
 export const experience = [
   {
     title: "Software Engineer",
-    description:
+    description: [
       "Hackathoon Website Developing Bearhack & DesignVerse Websitie",
+      "no no no no",
+      "no no no no",
+    ],
   },
   {
     title: "Web Developer",
-    description:
+    description: [
       "ACM Projects Devlopied Phi Alpha Delta, HiSS, And currently devloping R'Tools",
+      "Web lead",
+      "R'Tools",
+      "HiSS",
+      "PAD",
+    ],
   },
 ];

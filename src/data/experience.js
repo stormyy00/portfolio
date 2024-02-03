@@ -2,17 +2,20 @@ export const experience = [
   {
     title: "SWE @ Design Verse",
     description: [
-      "Hackathoon Website Developing Bearhack & DesignVerse Websitie",
-      "no no no ino",
-      "no no no no",
+      "Hackathon Designed for UI/UX designers",
+      "Redesigned and modified existing admin portal for utilization by UI/UX designers",
+      "Built CI/CD pipeline enabling developers to automatically push their pushed code to github utilizing Github Actions",
+      "Created a web dashboard and navigation dropdown with React.js and Tailwind for quick access to sections",
+      "Refactored sign-up forms to make user data scalable and maintainable for future events",
     ],
   },
   {
     title: "SWE @ Cutiehack",
     description: [
-      "Hackathoon Website Developing Bearhack & DesignVerse Websitie",
-      "no no no no",
-      "no no no no",
+      "Developed a full stack template application using React, Tailwind, and MongoDB to create front-end components and wrote backend scripts",
+      "Managed user data for 400+ participants, ensuring a seamless experience and contributing to the successful execution of multiple hackathons",
+      "Developed QR scanner component for check-in and modified 40+ components for scalability",
+      "Conducted E2E and component testing near deployment using Cypress.io",
     ],
   },
   {

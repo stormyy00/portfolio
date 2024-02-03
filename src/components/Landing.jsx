@@ -90,10 +90,12 @@ const Landing = () => {
         }}
         className="m-0 text-web-white font-montserrat font-thin text-xs md:text-base mx-3 mt-8"
       >
-        <p> $cd hobbies</p>
-        <p> -Gym </p>
-        <p> -Snowbaording</p>
-        <p> -Leetcode </p>
+        <div className="bg-gray-500 border-4 border-gray-400 p-4 flex flex-col rounded-lg">
+          <p>$cd hobbies</p>
+          <p> -Gym </p>
+          <p> -Snowbaording</p>
+          <p> -Leetcode </p>
+        </div>
       </motion.div>
     </section>
   );

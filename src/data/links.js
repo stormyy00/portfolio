@@ -6,16 +6,16 @@ export const Socials = [
   {
     path: "https://github.com/stormyy00",
     title: "Github",
-    image: <FaGithub />,
+    icon: <FaGithub />,
   },
   {
     path: "https://www.linkedin.com/in/jonathantrujillo-/",
     title: "LinkedIn",
-    image: <FaLinkedin />,
+    icon: <FaLinkedin />,
   },
   {
     path: "https://github.com/stormyy00",
     title: "Resume",
-    image: <IoNewspaperOutline />,
+    icon: <IoNewspaperOutline />,
   },
 ];

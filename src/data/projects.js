@@ -7,7 +7,7 @@ export const projects = [
   {
     title: "R'Tools",
     description:
-      "A site where students can run the ssentail algorithms with visualizations and logic expression",
+      "A site where students can run the essential algorithms with visualizations and logical expression",
     techStack: ["Next.js", "Tailwind", "Prettier"],
   },
   {

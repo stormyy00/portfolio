@@ -32,8 +32,8 @@ const About = () => {
           </Title>
         </motion.div>
 
-        <div className="flex justify-center flex-cols">
-          <div className="flex flex-col -translate-x-8 justify-between col-span-2 gap-3">
+        <div className="flex justify-start flex-col md:flex-row text-white">
+          <div className="flex flex-col gap-4">
             <motion.div
               initial="hidden"
               whileInView="show"

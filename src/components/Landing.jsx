@@ -92,9 +92,9 @@ const Landing = () => {
       >
         <div className="bg-gray-500 border-4 border-gray-400 p-4 flex flex-col rounded-lg">
           <p>$cd hobbies</p>
-          <p> -Gym </p>
-          <p> -Snowbaording</p>
-          <p> -Leetcode </p>
+          <p> - Gym </p>
+          <p> - Snowbaording</p>
+          <p> - Leetcode </p>
         </div>
       </motion.div>
     </section>

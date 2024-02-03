@@ -2,6 +2,7 @@
 import Navigation from "@/components/Navigation";
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Montserrat } from "next/font/google";
 import Footer from "@/components/Footer";
 
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
         <div className="bg-web-black w-full flex items-center justify-center flex-col overflow-hidden">
           <Navigation />
           {children}
+          <SpeedInsights />
           <Footer />
         </div>
       </body>

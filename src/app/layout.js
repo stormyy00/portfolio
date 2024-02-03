@@ -3,6 +3,7 @@ import Navigation from "@/components/Navigation";
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 import { Montserrat } from "next/font/google";
 import Footer from "@/components/Footer";
 
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
           <Navigation />
           {children}
           <SpeedInsights />
+          <Analytics />
           <Footer />
         </div>
       </body>

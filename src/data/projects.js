@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: "ACM x Art Factory ",
+    title: "ACM x Art Factory (in Progress)",
     description:
       "Leading a group of 6 people to create a website for UCR's Art Factory Club",
     techStack: ["Next.Js", "Tailwind", "Figma", "Github Actions"],

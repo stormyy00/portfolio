@@ -6,8 +6,12 @@ const Experiences = ({ experience }) => {
       <div className="text-white font-bold text-2xl md:text-3xl">
         {experience.title.toUpperCase()}
       </div>
-      <div className="-mt-0 text-md text-white font-light md:text-xl">
-        {experience.description}
+      <div className="mt-0 text-md text-white font-light md:text-xl flex flex-col">
+        {experience.description.map((description, index) => (
+          <div key={index} className="mb-2">
+            {description}
+          </div>
+        ))}
       </div>
     </div>
   );

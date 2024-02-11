@@ -33,7 +33,7 @@ const Navigation = () => {
               : "opacity-100 bg-green-500 duration-300"
           } bg-design-green-300 rounded-xl w-1/3 pl-3.5 py-2.5 drop-shadow-xl`}
         >
-          <FaBars className="text-white text-lg drop-shadow-md" />
+          <FaBars className="text-white text-lg drop-shadow-md " />
         </button>
         <div
           className={`${

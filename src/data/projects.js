@@ -8,7 +8,7 @@ export const projects = [
   },
   {
     title: "Gals Press",
-    description: "Embedded System using na Arduino Microcontroller",
+    description: "Discover the how much bias an article conatins",
     techStack: ["Next.Js", "Tailwind", "Flask", "Google Colab"],
     link: "https://github.com/rfairooz/GalsPress",
   },
@@ -35,7 +35,7 @@ export const projects = [
   },
   {
     title: "Hackathon Website",
-    description: "Embedded System using na Arduino Microcontroller",
+    description: "The hackathon user portal and admin dashboard used",
     techStack: [
       "Next.js",
       "Tailwind",
@@ -48,13 +48,14 @@ export const projects = [
   },
   {
     title: "Phi Alpha Delta",
-    description: "Embedded System using na Arduino Microcontroller",
+    description:
+      "The offical website for professional law and fraternity club at UCR",
     techStack: ["Next.js", "Tailwind", "Cypress", "Prettier"],
     link: "https://github.com/acm-ucr/pad-website",
   },
   {
     title: "Highlander Statistics Society",
-    description: "Embedded System using na Arduino Microcontroller",
+    description: "The offical website for Highland Statistic Society at UCR",
     techStack: ["Next.js", "Tailwind", "Prettier"],
     link: "https://github.com/acm-ucr/hiss-website",
   },

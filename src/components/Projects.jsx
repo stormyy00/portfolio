@@ -22,8 +22,9 @@ const Projects = () => {
       <div className="w-full h-10 flex justify-center my-3">
         <Link
           href="https://github.com/stormyy00"
-          className="mt-1 md:w-2/12 flex justify-center items-center rounded-xl
-       bg-gray-50 px-1.5 py-0.5 text-xs font-semibold text-gray-600 ring-1 ring-inset ring-black/70"
+          className="no-underline mt-1 md:w-2/12 flex justify-center items-center rounded-xl
+       bg-gray-50 px-1.5 py-0.5 text-xs font-semibold text-gray-600 ring-1 ring-inset ring-black/70
+       transform transition-transform hover:scale-105"
         >
           View More
         </Link>

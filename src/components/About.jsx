@@ -1,6 +1,7 @@
 import React from "react";
 import Title from "./Title";
 import { motion } from "framer-motion";
+import Skills from "./Skills";
 
 const About = () => {
   const animation = {
@@ -47,17 +48,17 @@ const About = () => {
               className="glass text-web-white font-montserrats font-thin text-sm md:text-lg p-3 md:p-11 h-auto"
             >
               <div className="flex items-center">
-                <p className="m-0 text-web-white font-montserrats font-thin text-base md:text-xl">
+                <p className="m-0 text-web-white font-montserrats font-thin text-base md:text-3xl">
                   EDUCATION
                 </p>
               </div>
-              <p className="m-0 text-web-white font-montserrats font-thin text-xs md:text-base">
+              <p className="m-0 text-web-white font-montserrats font-thin text-xs md:text-base mt-1">
                 Bachelor of Science in Computer Science
               </p>
-              <p className="m-0 text-web-white font-montserrats font-thin text-xs md:text-base">
+              <p className="m-0 text-web-white font-montserrats font-thin text-xs md:text-base mt-1">
                 at University of California, Riverside
               </p>
-              <p className="m-0 text-web-white font-montserrats font-thin text-xs md:text-base">
+              <p className="m-0 text-web-white font-montserrats font-thin text-xs md:text-base mt-1">
                 Expected Graduation: 2025
               </p>
             </motion.div>
@@ -73,17 +74,7 @@ const About = () => {
               }}
               className="glass mb-4 p-3 h-fit"
             >
-              <div className="flex items-center">
-                <p className="m-0 text-web-white font-montserrats font-thin text-base md:text-xl">
-                  Skills
-                </p>
-              </div>
-              <p className="m-0 text-web-white font-montserrats font-thin text-xs md:text-base">
-                Lanuages: C++/C# Python HTML/CSS Javascript Java MySQL
-              </p>
-              <p className="m-0 text-web-white font-montserrats font-thin text-xs md:text-base">
-                Tech: React.js Next.js Tailwind CSS Figma Cypress
-              </p>
+              <Skills />
             </motion.div>
           </div>
         </div>

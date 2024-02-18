@@ -30,7 +30,7 @@ const Navigation = () => {
           className={`${
             isDropdownOpen
               ? "opacity-0 "
-              : "opacity-100 bg-green-500 duration-800"
+              : "opacity-100 bg-green-500/80 duration-800"
           } bg-design-green-300 rounded-xl w-1/3 pl-3.5 py-2.5 drop-shadow-xl`}
         >
           <FaBars className="text-white text-lg drop-shadow-md " />
@@ -40,7 +40,7 @@ const Navigation = () => {
             isDropdownOpen
               ? "transition-all duration-300 ease-out transform translate-y-0 opacity-100"
               : "transition-all duration-300 ease-in  transform -translate-y-32 -translate-x-32 opacity-0"
-          } bg-green-500 p-2 ml-0 -mt-10 md:-mt-10 grid grid-col rounded-xl drop-shadow-lg`}
+          } bg-green-500/80 p-2 ml-0 -mt-10 md:-mt-10 grid grid-col rounded-xl drop-shadow-lg`}
         >
           <button onClick={closeNavbar}>
             <FaChevronLeft className="flex text-white text-xl items-center justify-start my-1 ml-1" />

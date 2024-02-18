@@ -2,8 +2,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import me from "public/me.png";
-
+import me from "../../public/me.png";
+// import wave from "../../public/wavin.gif";
 const Landing = () => {
   const animation = {
     hidden: { opacity: 0, y: -30 },
@@ -72,7 +72,12 @@ const Landing = () => {
               }}
               className="m-3 text-web-white font-anticDidone text-xl md:text-2xl translate-x-6"
             >
-              Waving gif
+              {/* <Image
+              src={wave}
+              alt="wave"
+              className=" object-contain fill-blue-500"
+              />
+              Waving gif */}
             </motion.p>
           </motion.div>
         </div>

@@ -8,7 +8,7 @@ export const projects = [
   },
   {
     title: "Gals Press",
-    description: "Discover the how much bias an article conatins",
+    description: "Discover the how much bias an article contains",
     techStack: ["Next.Js", "Tailwind", "Flask", "Google Colab"],
     link: "https://github.com/rfairooz/GalsPress",
   },
@@ -21,7 +21,7 @@ export const projects = [
   },
   {
     title: "Design Verse",
-    description: "Hackathon catered towars UI/UX designers",
+    description: "Hackathon catered towards UI/UX designers",
     techStack: ["Next.js", "Tailwind", "Cypress", "Prettier"],
     //   imagePath: require.context("../../public/projects/hackathon", true),
     link: "https://github.com/designatucr/designverse2024",

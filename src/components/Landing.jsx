@@ -15,13 +15,13 @@ const Landing = () => {
   return (
     <section
       id="landing"
-      className="h-[70vh] md:h-full flex items-center md:items-center justify-center flex-col w-11/12 md:w-11/12 mt-4 md:mt-24 bg-gray-200"
+      className="h-[70vh] md:h-full flex items-center md:items-start flex-col md:flex-row  gap-10 justify-start flex-cols w-11/12 md:w-11/12 mt-4 md:mt-24 bg-gray-200 mb-8"
     >
       <div className="flex flex-col w-full md:w-3/6 md:flex-row  md:items-start bg-blue-400 rounded-3xl shadow-md">
         {/* <Image src={me} alt="me" className="w-1/4 h-auto" /> */}
         {/* <div className="h-40 w-2/3 bg-pink-400"></div> */}
         {/* <div className="bg-web-theme h-48 w-6 mx-8" /> */}
-        <div className="flex justtify-start mb-16 bg-100">
+        <div className="flex justtify-start mb-16">
           <motion.div
             initial="hidden"
             animate="show"
@@ -37,7 +37,7 @@ const Landing = () => {
               }}
               className="m-3 text-black font-montserrat font-semibold text-xl md:text-4xl"
             >
-              Hello, {"I'm"} Jonathan Trujillo
+              Hello!!! {"I'm"} Jonathan
             </motion.p>
             <motion.p
               variants={animation}
@@ -73,7 +73,17 @@ const Landing = () => {
           </motion.div>
         </div>
       </div>
-
+      <div className="w-full md:w-3/6 flex flex-col items-center bg-green-200 rounded-3xl shadow-md -16">
+        <p className=" font-montserrat font-semibold  text-xl md:text-4xl mt-3 ">
+          What am i doing?
+        </p>
+        <div className="m-3 font-anticDidone text-xl md:text-2xl translate-x-1">
+          currently leading art factory Software Engineer with a bit some touch
+          to reality, Located in Socal, You can usualluy find me at some coffee
+          shop cookin some new idea.
+        </div>
+        <div className="mb-10">github</div>
+      </div>
       {/* <motion.div
         initial="hidden"
         animate="show"

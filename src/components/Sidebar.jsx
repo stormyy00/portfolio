@@ -19,7 +19,7 @@ const Sidebar = () => {
             //   onClick={() => console.log(`Clicked on ${item.name}`)}
             onClick={() => handleClick(index)} // Corrected onClick handler
             href={item.link}
-            className={`flex px-2 py-1.5 text-white text-lg items-center no-underline hover:cursor-pointer ${
+            className={`flex px-2 py-1.5 text-white text-lg items-center no-underline hover:scale-110 cursor-pointer duration-300 ${
               selected === index
                 ? "bg-blue-400 rounded-[10px] bg-opacity-70 drop-shadow-sm"
                 : "hover:bg-gray-500 rounded-[10px] bg-opacity-70 hover:drop-shadow-sm"

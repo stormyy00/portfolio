@@ -15,29 +15,18 @@ const Landing = () => {
   return (
     <section
       id="landing"
-      className="h-[70vh] md:h-full items-center justify-center flex flex-col w-11/12 md:w-7/12 -mt-10 md:-mt-24"
+      className="h-[70vh] md:h-full flex items-center md:items-center justify-center flex-col w-11/12 md:w-11/12 mt-4 md:mt-24 bg-gray-200"
     >
-      <div className="flex flex-col md:flex-row justtify-center items-center md:items-start bg-blue">
-        <Image src={me} alt="me" className="w-1/4 h-auto" />
+      <div className="flex flex-col w-full md:w-3/6 md:flex-row  md:items-start bg-blue-400 rounded-3xl shadow-md">
+        {/* <Image src={me} alt="me" className="w-1/4 h-auto" /> */}
+        {/* <div className="h-40 w-2/3 bg-pink-400"></div> */}
         {/* <div className="bg-web-theme h-48 w-6 mx-8" /> */}
-        <div className="flex justtify-center mb-16">
+        <div className="flex justtify-start mb-16 bg-100">
           <motion.div
             initial="hidden"
             animate="show"
             className="flex flex-col items-center"
           >
-            {/* <motion.p
-              variants={animation}
-              transition={{
-                type: "tween",
-                ease: "easeInOut",
-                duration: 1,
-                delay: 0,
-              }}
-              className="m-0 text-web-white font-montserrat font-regular text-3xl md:text-5xl"
-            >
-              Hello!! Nice to meet you
-            </motion.p> */}
             <motion.p
               variants={animation}
               transition={{
@@ -46,9 +35,9 @@ const Landing = () => {
                 duration: 2,
                 delay: 0.3,
               }}
-              className="m-3 text-web-cyan font-montserrat font-semibold text-xl md:text-4xl"
+              className="m-3 text-black font-montserrat font-semibold text-xl md:text-4xl"
             >
-              Jonathan Trujillo
+              Hello, {"I'm"} Jonathan Trujillo
             </motion.p>
             <motion.p
               variants={animation}
@@ -60,7 +49,9 @@ const Landing = () => {
               }}
               className="m-3 text-web-white font-anticDidone text-xl md:text-2xl translate-x-6"
             >
-              SOFTWARE ENGINEER
+              Software Engineer with a bit some touch to reality, Located in
+              Socal, You can usualluy find me at some coffee shop cookin some
+              new idea.
             </motion.p>
             <motion.p
               variants={animation}
@@ -83,7 +74,7 @@ const Landing = () => {
         </div>
       </div>
 
-      <motion.div
+      {/* <motion.div
         initial="hidden"
         animate="show"
         variants={animation}
@@ -101,7 +92,7 @@ const Landing = () => {
           <p> - Snowbaording</p>
           <p> - Leetcode </p>
         </div>
-      </motion.div>
+      </motion.div> */}
     </section>
   );
 };

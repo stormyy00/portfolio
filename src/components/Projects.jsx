@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="justify-between flex flex-col w-full md:w-9/12 my-0"
+      className="justify-between flex flex-col w-full md:w-12/12 my-0"
     >
       <Title text="PROJECTS">
         <div className="h-6 w-11/12 absolute bg-web-cyan -left-4 -bottom-1 z-10" />

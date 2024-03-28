@@ -13,11 +13,18 @@ export const projects = [
     link: "https://github.com/rfairooz/GalsPress",
   },
   {
+    title: "Be my Valentine",
+    description:
+      "Ask out your dream girl with my this webisite, they will not say no",
+    techStack: ["Next.js", "Tailwind", "Prettier"],
+    link: "https://github.com/acm-ucr/hiss-website",
+  },
+  {
     title: "R'Tools",
     description:
       "A site where students can run the essential algorithms with visualizations and logical expression",
     techStack: ["Next.js", "Tailwind", "Prettier"],
-    link: "https://github.com/acm-ucr/r-tools",
+    link: "https://github.com/stormyy00/valentine",
   },
   {
     title: "Design Verse",

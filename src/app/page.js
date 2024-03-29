@@ -13,7 +13,7 @@ const Home = () => {
         <Sidebar />
       </div>
 
-      <div className="w-full md:w-9/12 flex flex-col items-center justify-center bg-blue-200">
+      <div className="w-full md:w-9/12 flex flex-col items-center justify-center bg-blue-">
         <Navigation />
         <Landing />
         <About />

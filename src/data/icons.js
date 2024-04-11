@@ -60,10 +60,10 @@ import { SiCplusplus } from "react-icons/si";
 import { SiCypress } from "react-icons/si";
 import { SiFlask } from "react-icons/si";
 import { SiAdobe } from "react-icons/si";
-import { FaGit } from "react-icons/fa";
-import { FaNodeJs } from "react-icons/fa";
-import { SiOpenai } from "react-icons/si";
-import { SiGoogleanalytics } from "react-icons/si";
+// import { FaGit } from "react-icons/fa";
+// import { FaNodeJs } from "react-icons/fa";
+// import { SiOpenai } from "react-icons/si";
+// import { SiGoogleanalytics } from "react-icons/si";
 
 const skills = {
   Programming: [

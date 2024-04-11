@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import snoopy from "../../public/stock.jpeg";
+// import snoopy from "../../public/stock.jpeg";
 import Link from "next/link";
-import PAD from "../../public/PAD.png";
+// import PAD from "../../public/PAD.png";
 const Project = ({ project }) => {
   return (
     <div className="font-poppins rounded-3xl flex flex-col gap-3 items-center justify-center m-3 p-0 bg-white w-11/12 md:w-11/12 h-full text-black shadow-md">
@@ -16,13 +16,13 @@ const Project = ({ project }) => {
       <div className="flex flex-col justify-center ml-3 w-11/12 h-full ">
         <div className="mt-0 flex font-bold text-xl text-black text-transparent bg-clip-text items-center gap-2 ">
           {project.title.toUpperCase()}
-          {project.icons.map((icon, iconIndex) => (
+          {project.links.map((link, linkIndex) => (
             <Link
-              key={iconIndex}
-              href={project.link[iconIndex]}
+              key={linkIndex}
+              href={link.url}
               className="text-black no-underline text-2xl  hover:scale-110 duration-300"
             >
-              {icon}
+              {link.text}
             </Link>
           ))}
         </div>

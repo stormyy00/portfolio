@@ -1,26 +1,26 @@
 "use client";
 import React from "react";
-import { FaBars } from "react-icons/fa";
-import Link from "next/link";
+// import { FaBars } from "react-icons/fa";
+// import Link from "next/link";
 // import { Link } from "react-scroll";
-import { useState } from "react";
-import { navigations } from "@/data/navigation";
-import { FaChevronLeft } from "react-icons/fa";
+// import { useState } from "react";
+// import { navigations } from "@/data/navigation";
+// import { FaChevronLeft } from "react-icons/fa";
 
 const Navigation = () => {
-  const [isDropdownOpen, setDropdownOpen] = useState(false);
+  // const [isDropdownOpen, setDropdownOpen] = useState(false);
 
-  const toggleDropdown = () => {
-    setDropdownOpen(!isDropdownOpen);
-  };
+  // const toggleDropdown = () => {
+  //   setDropdownOpen(!isDropdownOpen);
+  // };
 
-  const closeNavbar = () => {
-    setDropdownOpen(false);
-  };
+  // const closeNavbar = () => {
+  //   setDropdownOpen(false);
+  // };
 
   return (
     <div className="flex w-11/12 h-10 bg-white justify-between z-0">
-      <div className="text-black text-3xl mr-10">stormyy'tm</div>
+      {/* <div className="text-black text-3xl mr-10">stormyy'tm</div> */}
       <div className="text-lg">TIME</div>
     </div>
     // <div className="w-full ml-3 py-2 md:mt-64">

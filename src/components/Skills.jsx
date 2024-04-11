@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import skills from "@/data/icons";
-import Image from "next/image";
+// import Image from "next/image";
 
 const Skills = () => {
   const [selectedType, setSelectedType] = useState(null);

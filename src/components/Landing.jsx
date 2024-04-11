@@ -42,10 +42,9 @@ const Landing = () => {
               }}
               className="m-3 text-web-white font-anticDidone text-lg md:text-xl lg:text-2xl"
             >
-              I'm a 3rd Year, studying Computer Science at UC Riverside. I'm
-              Software Engineer/Web Developer with a touch of reality, located
-              in SoCal. You can usually find me at a coffee shop, cooking up new
-              ideas.
+              {
+                "I'm a 3rd Year, studying Computer Science at UC Riverside. I'm Software Engineer/Web Developer with a touch of reality, located in SoCal. You can usually find me at a coffee shop, cooking up new ideas."
+              }
             </motion.p>
             <motion.p
               variants={animation}

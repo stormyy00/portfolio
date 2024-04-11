@@ -17,10 +17,15 @@ export const projects = [
     techStack: ["Next.Js", "Tailwind", "Figma", "Github Actions"],
     link: "https://github.com/stormyy00",
     image: art,
-    icons: [<FaGlobeAmericas />, <FaGithub />],
-    link: [
-      "https://www.designverseucr.org/",
-      "https://github.com/designatucr/designverse2024",
+    links: [
+      // {
+      //   text: <FaGlobeAmericas />,
+      //   url: "https://www.designverseucr.org/"
+      // },
+      {
+        text: <FaGithub />,
+        url: "https://github.com/acm-ucr/art-factory-website",
+      },
     ],
   },
   {
@@ -29,10 +34,15 @@ export const projects = [
     techStack: ["Next.Js", "Tailwind", "Flask", "Google Colab"],
     link: "https://github.com/rfairooz/GalsPress",
     image: Gals,
-    icons: [<FaGlobeAmericas />, <FaGithub />],
-    link: [
-      "https://www.designverseucr.org/",
-      "https://github.com/designatucr/designverse2024",
+    links: [
+      {
+        text: <FaGlobeAmericas />,
+        url: "https://www.designverseucr.org/",
+      },
+      {
+        text: <FaGithub />,
+        url: "https://github.com/designatucr/designverse2024",
+      },
     ],
   },
   {
@@ -42,10 +52,15 @@ export const projects = [
     techStack: ["Next.js", "Tailwind", "Prettier"],
     link: "https://github.com/acm-ucr/hiss-website",
     image: val,
-    icons: [<FaGlobeAmericas />, <FaGithub />],
-    link: [
-      "https://www.designverseucr.org/",
-      "https://github.com/designatucr/designverse2024",
+    links: [
+      {
+        text: <FaGlobeAmericas />,
+        url: "https://www.designverseucr.org/",
+      },
+      {
+        text: <FaGithub />,
+        url: "https://github.com/designatucr/designverse2024",
+      },
     ],
   },
   {
@@ -55,10 +70,15 @@ export const projects = [
     techStack: ["Next.js", "Tailwind", "Prettier"],
     link: "https://github.com/stormyy00/valentine",
     image: tools,
-    icons: [<FaGlobeAmericas />, <FaGithub />],
-    link: [
-      "https://www.designverseucr.org/",
-      "https://github.com/designatucr/designverse2024",
+    links: [
+      {
+        text: <FaGlobeAmericas />,
+        url: "https://rtools.ucrhighlanders.org/",
+      },
+      {
+        text: <FaGithub />,
+        url: "https://github.com/acm-ucr/r-tools",
+      },
     ],
   },
   {
@@ -67,10 +87,15 @@ export const projects = [
     techStack: ["Next.js", "Tailwind", "Cypress", "Prettier"],
     link: "https://github.com/designatucr/designverse2024",
     image: design,
-    icons: [<FaGlobeAmericas />, <FaGithub />],
-    link: [
-      "https://www.designverseucr.org/",
-      "https://github.com/designatucr/designverse2024",
+    links: [
+      {
+        text: <FaGlobeAmericas />,
+        url: "https://www.designverseucr.org/",
+      },
+      {
+        text: <FaGithub />,
+        url: "https://github.com/designatucr/designverse2024",
+      },
     ],
   },
   {
@@ -79,10 +104,15 @@ export const projects = [
     techStack: ["Arduino", "C++"],
     link: "https://github.com/stormyy00/PC-Cooling-System",
     image: PAD,
-    icons: [<FaGlobeAmericas />, <FaGithub />],
-    link: [
-      "https://www.designverseucr.org/",
-      "https://github.com/designatucr/designverse2024",
+    links: [
+      // {
+      //   text: <FaGlobeAmericas />,
+      //   url: "https://www.designverseucr.org/"
+      // },
+      {
+        text: <FaGithub />,
+        url: "https://github.com/stormyy00/PC-Cooling-System",
+      },
     ],
   },
   {
@@ -91,10 +121,15 @@ export const projects = [
     techStack: ["Next.js", "Tailwind", "Cypress", "NextAuth", "Firebase"],
     link: "https://github.com/acm-ucr/hackathon-website",
     image: hack,
-    icons: [<FaGlobeAmericas />, <FaGithub />],
-    link: [
-      "https://www.designverseucr.org/",
-      "https://github.com/designatucr/designverse2024",
+    links: [
+      // {
+      //   text: <FaGlobeAmericas />,
+      //   url: "https://www.designverseucr.org/"
+      // },
+      {
+        text: <FaGithub />,
+        url: "https://github.com/designatucr/designverse2024",
+      },
     ],
   },
   {
@@ -104,10 +139,15 @@ export const projects = [
     techStack: ["Next.js", "Tailwind", "Cypress", "Prettier"],
     link: "https://github.com/acm-ucr/pad-website",
     image: PAD,
-    icons: [<FaGlobeAmericas />, <FaGithub />],
-    link: [
-      "https://www.designverseucr.org/",
-      "https://github.com/designatucr/designverse2024",
+    links: [
+      {
+        text: <FaGlobeAmericas />,
+        url: "https://pad.ucrhighlanders.org/",
+      },
+      {
+        text: <FaGithub />,
+        url: "https://github.com/acm-ucr/pad-website",
+      },
     ],
   },
   {
@@ -116,10 +156,15 @@ export const projects = [
     techStack: ["Next.js", "Tailwind", "Prettier"],
     link: "https://github.com/acm-ucr/hiss-website",
     image: HISS,
-    icons: [<FaGlobeAmericas />, <FaGithub />],
-    link: [
-      "https://www.designverseucr.org/",
-      "https://github.com/designatucr/designverse2024",
+    links: [
+      {
+        text: <FaGlobeAmericas />,
+        url: "https://hiss.ucrhighlanders.org/",
+      },
+      {
+        text: <FaGithub />,
+        url: "https://github.com/acm-ucr/hiss-website",
+      },
     ],
   },
 ];

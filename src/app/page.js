@@ -4,7 +4,7 @@ import About from "../components/About";
 import Experience from "../components/Experience";
 import Landing from "../components/Landing";
 import Projects from "../components/Projects";
-import Navigation from "@/components/Navigation";
+// import Navigation from "@/components/Navigation";
 
 const Home = () => {
   return (

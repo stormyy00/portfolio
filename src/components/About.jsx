@@ -3,8 +3,8 @@ import Title from "./Title";
 import { motion } from "framer-motion";
 import Skills from "./Skills";
 import HorizontalLine from "./HorizontalLine";
-import Image from "next/image";
-import tag from "../../public/tag.svg";
+// import Image from "next/image";
+// import tag from "../../public/tag.svg";
 const About = () => {
   const animation = {
     hidden: { opacity: 0, y: -30 },

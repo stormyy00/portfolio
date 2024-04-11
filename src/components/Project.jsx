@@ -1,28 +1,35 @@
 import React from "react";
 import Image from "next/image";
-import snoopy from "../../public/stock.jpeg";
+// import snoopy from "../../public/stock.jpeg";
 import Link from "next/link";
-
+// import PAD from "../../public/PAD.png";
 const Project = ({ project }) => {
   return (
-    <Link
-      href={project.link}
-      className="font-poppins m-4 p-4 bg-white 3/12 md:w-11/12 h-5/7 rounded-3xl text-black shadow-md flex flex-cols items-center justify-center gap-0 no-underline transform transition-transform hover:scale-105"
-    >
+    <div className="font-poppins rounded-3xl flex flex-col gap-3 items-center justify-center m-3 p-0 bg-white w-11/12 md:w-11/12 h-full text-black shadow-md">
+      {/* <Link href={project.link} className="no-underline"> */}
       <Image
-        src={snoopy}
+        src={project.image}
         alt="snoopy"
-        className="rounded-2xl w-1/2 object-cover "
+        className="rounded-2xl w-full h-full object-cover border-4 border-blue-400 "
       />
-
-      <div>
-        <div className="mt-2 font-bold text-xl text-black text-transparent bg-clip-text top-0">
+      {/* </Link> */}
+      <div className="flex flex-col justify-center ml-3 w-11/12 h-full ">
+        <div className="mt-0 flex font-bold text-xl text-black text-transparent bg-clip-text items-center gap-2 ">
           {project.title.toUpperCase()}
+          {project.links.map((link, linkIndex) => (
+            <Link
+              key={linkIndex}
+              href={link.url}
+              className="text-black no-underline text-2xl  hover:scale-110 duration-300"
+            >
+              {link.text}
+            </Link>
+          ))}
         </div>
 
-        <div className="-mt-0 text-lg font-light">{project.description}</div>
+        <div className="text-lg font-light">{project.description}</div>
         <div className="font-anticDidone flex items-end text-xs md:text-sm gap-1 md;gap-2 py-4">
-          <div className="m-0 grid  grid-cols-2 md:grid-cols-3 gap-2">
+          <div className="m-0 grid grid-cols-2 md:grid-cols-3 gap-2">
             {project.techStack.map((techStack, index) => (
               <p
                 className="m-0 inline-flex justify-center items-center rounded-xl bg-gray-50 px-1.5 py-0.5 text-xs font-semibold text-gray-600 ring-1 ring-inset ring-black/70 "
@@ -34,7 +41,7 @@ const Project = ({ project }) => {
           </div>
         </div>
       </div>
-    </Link>
+    </div>
     // <div className="flex flex-col w-full items-center">
     // <div className="flex flex-col md:grid md:grid-col-2 xl:grid-col-3 md:space-x-8 space-y-4">
     // <div className="w-80 md:w-96 bg-gray-400 shadow-xl h-[28rem]">

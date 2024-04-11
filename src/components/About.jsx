@@ -2,7 +2,9 @@ import React from "react";
 import Title from "./Title";
 import { motion } from "framer-motion";
 import Skills from "./Skills";
-
+import HorizontalLine from "./HorizontalLine";
+// import Image from "next/image";
+// import tag from "../../public/tag.svg";
 const About = () => {
   const animation = {
     hidden: { opacity: 0, y: -30 },
@@ -14,9 +16,15 @@ const About = () => {
   return (
     <section
       id="about"
-      className="justify-center flex flex-col w-11/12 md:w-9/12 my-4 md:my-10"
+      className="justify-center flex flex-col w-11/12 md:w-11/12 gap-6 my-4 md:my-10"
     >
-      <div className="flex w-full flex-col z-10">
+      <Title text="SKILLS">
+        {/* <div className="h-6 w-36 absolute bg-web-cyan -left-4 -bottom-1 z-10" /> */}
+        <div className="w-full m-full">
+          <HorizontalLine />
+        </div>
+      </Title>
+      <div className="flex w-full justify-center flex-col z-10">
         <motion.div
           initial="hidden"
           whileInView="show"
@@ -28,14 +36,15 @@ const About = () => {
             delay: 0.3,
           }}
         >
-          <Title text="ABOUT">
-            <div className="h-6 w-36 absolute bg-web-cyan -left-4 -bottom-1 z-10" />
-          </Title>
+          {/* <Title text="ABOUT"> */}
+          {/* <div className="h-6 w-36 absolute bg-web-cyan -left-4 -bottom-1 z-10" /> */}
+
+          {/* </Title> */}
         </motion.div>
 
-        <div className="flex justify-start flex-col md:flex-row text-white">
-          <div className="flex flex-col gap-4">
-            <motion.div
+        <div className="flex w-full justify-center flex-col md:flex-row text-white">
+          <div className="flex  gap-4">
+            {/* <motion.div
               initial="hidden"
               whileInView="show"
               variants={animation}
@@ -45,9 +54,9 @@ const About = () => {
                 duration: 1,
                 delay: 0.6,
               }}
-              className="glass text-web-white font-montserrats font-thin text-sm md:text-lg p-3 md:p-11 h-auto"
-            >
-              <div className="flex items-center">
+              className=" text-web-white font-montserrats font-thin text-sm md:text-lg p-3 md:p-11 h-auto"
+            > */}
+            {/* <div className="flex items-center">
                 <p className="m-0 text-web-white font-montserrats font-thin text-base md:text-3xl">
                   EDUCATION
                 </p>
@@ -60,8 +69,8 @@ const About = () => {
               </p>
               <p className="m-0 text-web-white font-montserrats font-thin text-xs md:text-base mt-1">
                 Expected Graduation: 2025
-              </p>
-            </motion.div>
+              </p> */}
+            {/* </motion.div> */}
             <motion.div
               initial="hidden"
               whileInView="show"
@@ -69,10 +78,10 @@ const About = () => {
               transition={{
                 type: "tween",
                 ease: "easeInOut",
-                duration: 1,
-                delay: 0.6,
+                duration: 0.2,
+                delay: 0.2,
               }}
-              className="glass mb-4 p-3 h-fit"
+              className="w-full h-full"
             >
               <Skills />
             </motion.div>

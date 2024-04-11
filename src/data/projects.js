@@ -35,13 +35,13 @@ export const projects = [
     link: "https://github.com/rfairooz/GalsPress",
     image: Gals,
     links: [
-      {
-        text: <FaGlobeAmericas />,
-        url: "https://www.designverseucr.org/",
-      },
+      // {
+      //   text: <FaGlobeAmericas />,
+      //   url: "https://www.designverseucr.org/",
+      // },
       {
         text: <FaGithub />,
-        url: "https://github.com/designatucr/designverse2024",
+        url: "https://github.com/rfairooz/GalsPress",
       },
     ],
   },
@@ -50,16 +50,16 @@ export const projects = [
     description:
       "Ask out your dream girl with my this webisite, they will not say no",
     techStack: ["Next.js", "Tailwind", "Prettier"],
-    link: "https://github.com/acm-ucr/hiss-website",
+    link: "https://github.com/stormyy00/valentine",
     image: val,
     links: [
       {
         text: <FaGlobeAmericas />,
-        url: "https://www.designverseucr.org/",
+        url: "https://wyubmv.vercel.app/",
       },
       {
         text: <FaGithub />,
-        url: "https://github.com/designatucr/designverse2024",
+        url: "https://github.com/stormyy00/valentine",
       },
     ],
   },
@@ -68,7 +68,7 @@ export const projects = [
     description:
       "A site where students can run the essential algorithms with visualizations and logical expression",
     techStack: ["Next.js", "Tailwind", "Prettier"],
-    link: "https://github.com/stormyy00/valentine",
+    link: "https://github.com/acm-ucr/r-tools",
     image: tools,
     links: [
       {

@@ -89,8 +89,14 @@ const SKILLS = {
     },
   ],
   Design: [
-    { name: "Figna", icon: <SiFigma className="text-tech-figma" /> },
-    { name: "Adobe", icon: <SiAdobe className="text-red-500" /> },
+    {
+      name: "Figma",
+      icon: <SiFigma className="text-tech-figma" />,
+    },
+    {
+      name: "Adobe",
+      icon: <SiAdobe className="text-red-500" />,
+    },
   ],
 };
 

@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={` ${montserrat.variable}`}>
       <body>
-        <div className=" bg-gray-200 text-black w-full flex items-center justify-center flex-col overflow-hidden -z-10">
+        <div className=" bg-gray-200 w-full h-full flex items-center justify-center flex-col overflow-hidden z-10">
           {children}
           <SpeedInsights />
           <Analytics />

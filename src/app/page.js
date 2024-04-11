@@ -13,12 +13,14 @@ const Home = () => {
         <Sidebar />
       </div>
 
-      <div className="w-full md:w-9/12 flex flex-col items-center justify-center bg-blue-">
-        <Navigation />
-        <Landing />
-        <About />
-        <Projects />
-        <Experience />
+      <div className="flex justify-center items-center">
+        <div className="w-full md:w-9/12 flex flex-col items-center justify-center gap-4">
+          {/* <Navigation /> */}
+          <Landing />
+          <About />
+          <Projects />
+          <Experience />
+        </div>
       </div>
     </>
   );

@@ -62,7 +62,7 @@ export const exper = [
   {
     title: "Web Developer @ ACMUCR",
     description: [
-      "Created websites using NextJS such as PAD, HiSS, R'Tools, and currently developig Art Fcatory too increase digital presence and outreach around UCR",
+      "Created websites using NextJS such as PAD, HiSS, R'Tools, and currently developing Art Fcatory too increase digital presence and outreach around UCR",
       "",
     ],
     time: "June 2023 - Present",
@@ -70,7 +70,7 @@ export const exper = [
   {
     title: "Software Engineer @ CutieHack",
     description: [
-      "First time exposing myself to a serious enviorment where we developed the CutieHack Website",
+      "First time exposing myself to a serious envionment where we developed the CutieHack Website",
       "",
     ],
     time: "July 2023 - November 2023",

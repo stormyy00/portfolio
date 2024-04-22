@@ -15,10 +15,10 @@ const Landing = () => {
   return (
     <section
       id="landing"
-      className="h-full flex items-center md:items-start gap-10 justify-center flex-col md:flex-row w-11/12 md:w-11/12 mt-4 md:mt-24 bg-gray-200 mb-8"
+      className="h-full flex items-center md:items-start gap-10 justify-center flex-col md:flex-row w-11/12 md:w-11/12 mt-4 bg-gray-200 mb-8"
     >
-      <div className="flex w-full flex-col md:flex-row justify-center gap-10 md:gap-20 ">
-        <div className="flex justtify-center w-full md:w-3/6 bg-blue-400 rounded-3xl shadow-md ">
+      <div className="flex lg:w-screen flex-col md:flex-row justify-center gap-10 md:gap-20">
+        <div className="flex justify-center lg:w-1/2 bg-blue-400 rounded-3xl shadow-md ">
           <motion.div initial="hidden" animate="show" className="">
             <motion.p
               variants={animation}
@@ -28,11 +28,11 @@ const Landing = () => {
                 duration: 2,
                 delay: 0.3,
               }}
-              className="m-3 text-white text-center font-montserrat font-semibold text-lg lg:text-xl xl:text-4xl"
+              className="m-3 text-white text-center font-montserrat font-semibold text-base md:text-2xl xl:text-4xl  "
             >
               Hello!!!
             </motion.p>
-            <motion.p
+            <motion.div
               variants={animation}
               transition={{
                 type: "tween",
@@ -40,13 +40,13 @@ const Landing = () => {
                 duration: 2,
                 delay: 0.6,
               }}
-              className="m-3 text-web-white font-anticDidone text-lg md:text-xl lg:text-2xl"
+              className="m-3 text-web-white font-anticDidone text-base md:text-base lg:text-2xl"
             >
               {
                 "I'm a 3rd Year, studying Computer Science at UC Riverside. I'm Software Engineer/Web Developer with a touch of reality, located in SoCal. You can usually find me at a coffee shop, cooking up new ideas."
               }
-            </motion.p>
-            <motion.p
+            </motion.div>
+            <motion.div
               variants={animation}
               transition={{
                 type: "tween",
@@ -54,22 +54,22 @@ const Landing = () => {
                 duration: 3,
                 delay: 0.6,
               }}
-              className="m-3 text-web-white font-semibold  flex flex-col items-center font-anticDidone text-xl lg:text-2xl xl:text-4xl"
+              className="m-3 text-web-white font-semibold flex flex-col text-center font-anticDidone text-lg lg:text-xl xl:text-3xl"
             >
               What am I doing?
-              <span className=" font-normal text-base  md:text-xl lg:text-2xl m-1 mt-3">
-                - Currently leading Art Factory with 10 devs
-                <br /> - Probably buying an Iced Caramel Latte
-                <br /> - commiting to github
-              </span>
-            </motion.p>
+              <div className="flex flex-col  items-start font-normal text-base md:text-base lg:text-xl m-3 mt-2">
+                <div>- Currently leading art factory with 10 devs </div>
+                <div>- Probably buying an iced caramel catte </div>
+                <div> - Commiting to GitHub</div>
+              </div>
+            </motion.div>
           </motion.div>
         </div>
-        <div className="flex w-full h-full md:w-1/3 justify-center overflow-hidden">
+        <div className="m-auto flex w-full h-full md:w-full lg:w-1/3  justify-center overflow-hidden">
           <Image
             src={bruh}
             alt="me"
-            className="hidden md:block w-full h-full lg:h-1/3 border-2 border-gray-400 rounded-xl object-cover"
+            className="hidden md:block lg:h-1/3 border-2 border-gray-400 rounded-xl object-cover"
           />
         </div>
       </div>

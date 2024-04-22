@@ -6,6 +6,7 @@ import tools from "../../public/rtools.png";
 import design from "../../public/designverse.png";
 import val from "../../public/val.png";
 import art from "../../public/art3.png";
+import mood from "../../public/mood.png";
 import { FaGlobeAmericas } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
@@ -46,20 +47,20 @@ export const projects = [
     ],
   },
   {
-    title: "Be my Valentine",
+    title: "Mood",
     description:
-      "Ask out your dream girl with my this webisite, they will not say no",
+      "Inspired by BeReal and Life360, a homegrown community where checking in on your friends' mental health is as easy as 1, 2, 3.",
     techStack: ["Next.js", "Tailwind", "Prettier"],
-    link: "https://github.com/stormyy00/valentine",
-    image: val,
+    link: "https://github.com/acm-ucr/r-tools",
+    image: mood,
     links: [
-      {
-        text: <FaGlobeAmericas />,
-        url: "https://wyubmv.vercel.app/",
-      },
+      // {
+      //   text: <FaGlobeAmericas />,
+      //   url: "https://rtools.ucrhighlanders.org/",
+      // },
       {
         text: <FaGithub />,
-        url: "https://github.com/stormyy00/valentine",
+        url: "https://github.com/stormyy00/HackTech2024",
       },
     ],
   },
@@ -78,6 +79,24 @@ export const projects = [
       {
         text: <FaGithub />,
         url: "https://github.com/acm-ucr/r-tools",
+      },
+    ],
+  },
+  {
+    title: "Be my Valentine",
+    description:
+      "Ask out your dream girl with my this webisite, they will not say no",
+    techStack: ["Next.js", "Tailwind", "Prettier"],
+    link: "https://github.com/stormyy00/valentine",
+    image: val,
+    links: [
+      {
+        text: <FaGlobeAmericas />,
+        url: "https://wyubmv.vercel.app/",
+      },
+      {
+        text: <FaGithub />,
+        url: "https://github.com/stormyy00/valentine",
       },
     ],
   },

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 // import Image from "next/image";
 
 const Skills = () => {
-  const [selectedType, setSelectedType] = useState(null);
+  const [selectedType, setSelectedType] = useState("Programming");
   const [hoveredTech, setHoveredTech] = useState(null);
 
   return (
@@ -92,7 +92,7 @@ const SKILLS = {
     },
     {
       name: "Java",
-      icon: <DiJava className="text-6xl -mt-1 text-red-500" />,
+      icon: <DiJava className="text-6xl -mt-3 text-red-500" />,
     },
     {
       name: "SQL",

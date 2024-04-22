@@ -5,12 +5,12 @@ import Link from "next/link";
 // import PAD from "../../public/PAD.png";
 const Project = ({ project }) => {
   return (
-    <div className="font-poppins rounded-3xl flex flex-col gap-3 items-center justify-center m-3 p-0 bg-white w-11/12 md:w-11/12 h-full text-black shadow-md">
+    <div className="font-poppins rounded-3xl flex flex-col gap-3 items-center justify-center m-3 p-0  bg-gradient-to-br from-[#f7e7f9] to-[#e3efff] from-10% w-11/12 md:w-11/12 h-full text-black shadow-md">
       {/* <Link href={project.link} className="no-underline"> */}
       <Image
         src={project.image}
         alt="snoopy"
-        className="rounded-2xl w-full h-full object-cover border-4 border-blue-400 "
+        className="rounded-2xl w-full h-full object-cover border-4 border-[#c2d2f9] "
       />
       {/* </Link> */}
       <div className="flex flex-col justify-center ml-3 w-11/12 h-full ">

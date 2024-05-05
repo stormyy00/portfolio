@@ -5,7 +5,7 @@ import Link from "next/link";
 // import PAD from "../../public/PAD.png";
 const Project = ({ project }) => {
   return (
-    <div className="font-poppins rounded-3xl flex flex-col gap-3 items-center justify-center m-3 p-0  bg-gradient-to-br from-[#f7e7f9] to-[#e3efff] from-10% w-11/12 md:w-11/12 h-full text-black shadow-md">
+    <div className="font-poppins rounded-3xl flex flex-col gap-3 items-center justify-center m-3 p-0  bg-gradient-to-br from-[#f7e7f9] to-[#e3efff] from-10% w-11/12 md:w-11/12 h-full text-black shadow-md hover:-translate-y-1 hover:drop-shadow-md duration-500">
       {/* <Link href={project.link} className="no-underline"> */}
       <Image
         src={project.image}

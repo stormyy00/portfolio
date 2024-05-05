@@ -30,7 +30,7 @@ const Landing = () => {
               }}
               className="m-3 text-white text-center font-montserrat font-semibold text-base md:text-2xl xl:text-4xl  "
             >
-              Hello!!!
+              Hello, I{"'"}m Jonathan!!
             </motion.p>
             <motion.div
               variants={animation}

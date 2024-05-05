@@ -4,7 +4,7 @@ import About from "../components/About";
 import Experience from "../components/Experience";
 import Landing from "../components/Landing";
 import Projects from "../components/Projects";
-// import Navigation from "@/components/Navigation";
+import Navigation from "@/components/Navigation";
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
 
       <div className="flex justify-center items-center">
         <div className="w-full md:w-9/12 flex flex-col items-center justify-center gap-4">
-          {/* <Navigation /> */}
+          <Navigation />
           <Landing />
           <About />
           <Projects />

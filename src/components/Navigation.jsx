@@ -19,9 +19,11 @@ const Navigation = () => {
   // };
 
   return (
-    <div className="flex w-11/12 h-10 bg-white justify-between z-0">
+    <div className="flex w-11/12 h-fit justify-center items-center z-0">
       {/* <div className="text-black text-3xl mr-10">stormyy'tm</div> */}
-      <div className="text-lg">TIME</div>
+      <div className="text-2xl md:text-4xl my-2 text-center font-serif tracking-wider font-semibold">
+        Jonathan Trujillo
+      </div>
     </div>
     // <div className="w-full ml-3 py-2 md:mt-64">
     //   <div

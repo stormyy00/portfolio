@@ -25,7 +25,7 @@ const Landing = () => {
               transition={{
                 type: "tween",
                 ease: "easeInOut",
-                duration: 2,
+                duration: 0.5,
                 delay: 0.3,
               }}
               className="m-3 text-white text-center font-montserrat font-semibold text-base md:text-2xl xl:text-4xl  "
@@ -37,7 +37,7 @@ const Landing = () => {
               transition={{
                 type: "tween",
                 ease: "easeInOut",
-                duration: 2,
+                duration: 0.5,
                 delay: 0.6,
               }}
               className="m-3 text-web-white font-anticDidone text-base md:text-base lg:text-2xl"
@@ -51,7 +51,7 @@ const Landing = () => {
               transition={{
                 type: "tween",
                 ease: "easeInOut",
-                duration: 3,
+                duration: 1,
                 delay: 0.6,
               }}
               className="m-3 text-web-white font-semibold flex flex-col text-center font-anticDidone text-lg lg:text-xl xl:text-3xl"

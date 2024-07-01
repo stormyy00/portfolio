@@ -20,6 +20,7 @@ const Project = ({ project }) => {
             <Link
               key={linkIndex}
               href={link.url}
+              target="_blank"
               className="text-black no-underline text-2xl  hover:scale-110 duration-300"
             >
               {link.text}

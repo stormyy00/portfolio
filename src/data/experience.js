@@ -39,9 +39,17 @@ export const experience = [
 
 export const exper = [
   {
+    title: "Software Engineer Intern @ Soma Reality",
+    description: [
+      "Currently working on the backend to create posts and events",
+      "",
+    ],
+    time: "June 2023 - Present",
+  },
+  {
     title: "CS 110 Grader",
     description: ["Grader for CS 110 Web Development", ""],
-    time: "April 2023 - Present",
+    time: "April 2023 - June 2023",
   },
   {
     title: "ACM President",

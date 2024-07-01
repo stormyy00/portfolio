@@ -1,31 +1,32 @@
-import PAD from "../../public/PAD.png";
-import HISS from "../../public/HISS.png";
-import Gals from "../../public/galspress.png";
-import hack from "../../public/hackathon.png";
-import tools from "../../public/rtools.png";
-import design from "../../public/designverse.png";
-import val from "../../public/val.png";
-import art from "../../public/art3.png";
-import mood from "../../public/mood.png";
+import PAD from "@/public/PAD.png";
+import HISS from "@/public/HISS.png";
+import Gals from "@/public/galspress.png";
+import hack from "@/public/hackathon.png";
+import tools from "@/public/rtools.png";
+import design from "@/public/designverse.png";
+import val from "@/public/val.png";
+import art from "@/public/art3.png";
+import mood from "@/public/mood.png";
+import db from "@/public/db.png";
+import load from "@/public/load.jpg";
 import { FaGlobeAmericas } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
 export const projects = [
   {
-    title: "Art Factory (in Progress)",
-    description:
-      "Leading a group of 6 people to create a website for UCR's Art Factory Club",
-    techStack: ["Next.Js", "Tailwind", "Figma", "Github Actions"],
+    title: "Pending...",
+    description: "Please comeback at a later date to see the next project...",
+    techStack: ["Next.Js", "Self hosted server"],
     link: "https://github.com/stormyy00",
-    image: art,
+    image: load,
     links: [
-      // {
-      //   text: <FaGlobeAmericas />,
-      //   url: "https://www.designverseucr.org/"
-      // },
+      {
+        text: <FaGlobeAmericas />,
+        url: "https://downloadmoreram.com/download.html",
+      },
       {
         text: <FaGithub />,
-        url: "https://github.com/acm-ucr/art-factory-website",
+        url: "https://www.youtube.com/watch?v=ze-POGS94-k",
       },
     ],
   },
@@ -50,7 +51,7 @@ export const projects = [
     title: "Mood",
     description:
       "Inspired by BeReal and Life360, a homegrown community where checking in on your friends' mental health is as easy as 1, 2, 3.",
-    techStack: ["Next.js", "Tailwind", "Prettier"],
+    techStack: ["React Native", "Tailwind", "Firebase", "OpenAI", "Flask"],
     link: "https://github.com/acm-ucr/r-tools",
     image: mood,
     links: [
@@ -79,6 +80,46 @@ export const projects = [
       {
         text: <FaGithub />,
         url: "https://github.com/acm-ucr/r-tools",
+      },
+    ],
+  },
+  {
+    title: "Game Rental Store",
+    description:
+      "A site where you can rent out your favorite games at the lowest price",
+    techStack: ["Next.js", "Java", "PostgreSQL", "Redux", "Prisma", "Tailwind"],
+    link: "https://github.com/stormyy00/valentine",
+    image: db,
+    links: [
+      {
+        text: <FaGlobeAmericas />,
+        url: "https://cs166-frontend.vercel.app/table/catalog",
+      },
+      {
+        text: <FaGithub />,
+        url: "hhttps://github.com/stormyy00/cs166-frontend",
+      },
+      {
+        text: <FaGithub />,
+        url: "https://github.com/stormyy00/cs166",
+      },
+    ],
+  },
+  {
+    title: "Art Factory",
+    description:
+      "Leading a group of 6 people to create a website for UCR's Art Factory Club",
+    techStack: ["Next.Js", "Tailwind", "Figma"],
+    link: "https://github.com/stormyy00",
+    image: art,
+    links: [
+      {
+        text: <FaGlobeAmericas />,
+        url: "https://artfactory.ucrhighlanders.org/",
+      },
+      {
+        text: <FaGithub />,
+        url: "https://github.com/acm-ucr/art-factory-website",
       },
     ],
   },

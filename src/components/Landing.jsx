@@ -2,7 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import bruh from "../../public/bruh1.JPG";
+import bruh from "../../public/bruh1.webp";
 // import wave from "../../public/wavin.gif";
 const Landing = () => {
   const animation = {

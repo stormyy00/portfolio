@@ -1,14 +1,14 @@
-import PAD from "@/public/PAD.png";
-import HISS from "@/public/HISS.png";
-import Gals from "@/public/galspress.png";
-import hack from "@/public/hackathon.png";
-import tools from "@/public/rtools.png";
-import design from "@/public/designverse.png";
-import val from "@/public/val.png";
-import art from "@/public/art3.png";
-import mood from "@/public/mood.png";
-import db from "@/public/db.png";
-import load from "@/public/load.jpg";
+import PAD from "@/public/PAD.webp";
+import HISS from "@/public/HISS.webp";
+import Gals from "@/public/galspress.webp";
+import hack from "@/public/hackathon.webp";
+import tools from "@/public/rtools.webp";
+import design from "@/public/designverse.webp";
+import val from "@/public/val.webp";
+import art from "@/public/art3.webp";
+import mood from "@/public/mood.webp";
+import db from "@/public/db.webp";
+import load from "@/public/load.webp";
 import { FaGlobeAmericas } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
@@ -66,24 +66,6 @@ export const projects = [
     ],
   },
   {
-    title: "R'Tools",
-    description:
-      "A site where students can run the essential algorithms with visualizations and logical expression",
-    techStack: ["Next.js", "Tailwind", "Prettier"],
-    link: "https://github.com/acm-ucr/r-tools",
-    image: tools,
-    links: [
-      {
-        text: <FaGlobeAmericas />,
-        url: "https://rtools.ucrhighlanders.org/",
-      },
-      {
-        text: <FaGithub />,
-        url: "https://github.com/acm-ucr/r-tools",
-      },
-    ],
-  },
-  {
     title: "Game Rental Store",
     description:
       "A site where you can rent out your favorite games at the lowest price",
@@ -102,6 +84,41 @@ export const projects = [
       {
         text: <FaGithub />,
         url: "https://github.com/stormyy00/cs166",
+      },
+    ],
+  },
+  {
+    title: "R'Tools",
+    description:
+      "A site where students can run the essential algorithms with visualizations and logical expression",
+    techStack: ["Next.js", "Tailwind", "Prettier"],
+    link: "https://github.com/acm-ucr/r-tools",
+    image: tools,
+    links: [
+      {
+        text: <FaGlobeAmericas />,
+        url: "https://rtools.ucrhighlanders.org/",
+      },
+      {
+        text: <FaGithub />,
+        url: "https://github.com/acm-ucr/r-tools",
+      },
+    ],
+  },
+  {
+    title: "Hackathon Website",
+    description: "The hackathon user portal and admin dashboard used",
+    techStack: ["Next.js", "Tailwind", "Cypress", "NextAuth", "Firebase"],
+    link: "https://github.com/acm-ucr/hackathon-website",
+    image: hack,
+    links: [
+      // {
+      //   text: <FaGlobeAmericas />,
+      //   url: "https://www.designverseucr.org/"
+      // },
+      {
+        text: <FaGithub />,
+        url: "https://github.com/designatucr/designverse2024",
       },
     ],
   },
@@ -172,23 +189,6 @@ export const projects = [
       {
         text: <FaGithub />,
         url: "https://github.com/stormyy00/PC-Cooling-System",
-      },
-    ],
-  },
-  {
-    title: "Hackathon Website",
-    description: "The hackathon user portal and admin dashboard used",
-    techStack: ["Next.js", "Tailwind", "Cypress", "NextAuth", "Firebase"],
-    link: "https://github.com/acm-ucr/hackathon-website",
-    image: hack,
-    links: [
-      // {
-      //   text: <FaGlobeAmericas />,
-      //   url: "https://www.designverseucr.org/"
-      // },
-      {
-        text: <FaGithub />,
-        url: "https://github.com/designatucr/designverse2024",
       },
     ],
   },

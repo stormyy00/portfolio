@@ -3,20 +3,24 @@ import { useState } from "react";
 import { navigations } from "@/data/navigation";
 import Link from "next/link";
 
-const Sidebar = () => {
-  const [selected, setSelected] = useState(null);
+interface NavigationItem {
+  link: string;
+  text: string;
+}
 
-  const handleClick = (index) => {
+const Sidebar = () => {
+  const [selected, setSelected] = useState<number | null>(null);
+
+  const handleClick = (index: number) => {
     setSelected(index);
   };
 
   return (
     <div className="hidden w-40 lg:flex h-screen items-center left-0 fixed z-50 text-white">
-      <div className=" flex flex-col space-y-2 justify-between items-start w-full mx-6">
-        {navigations.map((item, index) => (
+      <div className="flex flex-col space-y-2 justify-between items-start w-full mx-6">
+        {navigations.map((item: NavigationItem, index: number) => (
           <Link
             key={index}
-            //   onClick={() => console.log(`Clicked on ${item.name}`howard is a bitch)}
             onClick={() => handleClick(index)} // Corrected onClick handler
             href={item.link}
             className={`flex px-2 py-1.5 text-black text-lg items-center no-underline hover:scale-110 cursor-pointer duration-300 ${

@@ -6,7 +6,7 @@ import { projects } from "@/data/projects";
 import Link from "next/link";
 import HorizontalLine from "./HorizontalLine";
 
-const Projects = () => {
+const Projects: React.FC = () => {
   return (
     <section
       id="projects"

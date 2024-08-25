@@ -11,8 +11,25 @@ import db from "@/public/db.png";
 import load from "@/public/load.jpg";
 import { FaGlobeAmericas } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { IconType } from "react-icons";
+import { StaticImageData } from "next/image";
+import { Icon } from "@/types/icons";
+import { ProjectType } from "@/types/index";
+// type ProjectLink = {
+//   text: IconType;
+//   url: string;
+// };
 
-export const projects = [
+// type Project = {
+//   title: string;
+//   description: string;
+//   techStack: string[];
+//   link: string;
+//   image: StaticImageData;
+//   links: ProjectLink[];
+// };
+
+export const projects: ProjectType[] = [
   {
     title: "Pending...",
     description: "Please comeback at a later date to see the next project...",
@@ -21,11 +38,11 @@ export const projects = [
     image: load,
     links: [
       {
-        text: <FaGlobeAmericas />,
+        text: FaGlobeAmericas,
         url: "https://downloadmoreram.com/download.html",
       },
       {
-        text: <FaGithub />,
+        text: FaGithub,
         url: "https://www.youtube.com/watch?v=ze-POGS94-k",
       },
     ],
@@ -42,7 +59,7 @@ export const projects = [
       //   url: "https://www.designverseucr.org/",
       // },
       {
-        text: <FaGithub />,
+        text: FaGithub,
         url: "https://github.com/rfairooz/GalsPress",
       },
     ],
@@ -60,7 +77,7 @@ export const projects = [
       //   url: "https://rtools.ucrhighlanders.org/",
       // },
       {
-        text: <FaGithub />,
+        text: FaGithub,
         url: "https://github.com/stormyy00/HackTech2024",
       },
     ],
@@ -74,11 +91,11 @@ export const projects = [
     image: tools,
     links: [
       {
-        text: <FaGlobeAmericas />,
+        text: FaGlobeAmericas,
         url: "https://rtools.ucrhighlanders.org/",
       },
       {
-        text: <FaGithub />,
+        text: FaGithub,
         url: "https://github.com/acm-ucr/r-tools",
       },
     ],
@@ -92,15 +109,15 @@ export const projects = [
     image: db,
     links: [
       {
-        text: <FaGlobeAmericas />,
+        text: FaGlobeAmericas,
         url: "https://cs166-frontend.vercel.app/table/catalog",
       },
       {
-        text: <FaGithub />,
+        text: FaGithub,
         url: "hhttps://github.com/stormyy00/cs166-frontend",
       },
       {
-        text: <FaGithub />,
+        text: FaGithub,
         url: "https://github.com/stormyy00/cs166",
       },
     ],
@@ -114,11 +131,11 @@ export const projects = [
     image: art,
     links: [
       {
-        text: <FaGlobeAmericas />,
+        text: FaGlobeAmericas,
         url: "https://artfactory.ucrhighlanders.org/",
       },
       {
-        text: <FaGithub />,
+        text: FaGithub,
         url: "https://github.com/acm-ucr/art-factory-website",
       },
     ],
@@ -132,11 +149,11 @@ export const projects = [
     image: val,
     links: [
       {
-        text: <FaGlobeAmericas />,
+        text: FaGlobeAmericas,
         url: "https://wyubmv.vercel.app/",
       },
       {
-        text: <FaGithub />,
+        text: FaGithub,
         url: "https://github.com/stormyy00/valentine",
       },
     ],
@@ -149,11 +166,11 @@ export const projects = [
     image: design,
     links: [
       {
-        text: <FaGlobeAmericas />,
+        text: FaGlobeAmericas,
         url: "https://www.designverseucr.org/",
       },
       {
-        text: <FaGithub />,
+        text: FaGithub,
         url: "https://github.com/designatucr/designverse2024",
       },
     ],
@@ -170,7 +187,7 @@ export const projects = [
       //   url: "https://www.designverseucr.org/"
       // },
       {
-        text: <FaGithub />,
+        text: FaGithub,
         url: "https://github.com/stormyy00/PC-Cooling-System",
       },
     ],
@@ -187,7 +204,7 @@ export const projects = [
       //   url: "https://www.designverseucr.org/"
       // },
       {
-        text: <FaGithub />,
+        text: FaGithub,
         url: "https://github.com/designatucr/designverse2024",
       },
     ],
@@ -201,11 +218,11 @@ export const projects = [
     image: PAD,
     links: [
       {
-        text: <FaGlobeAmericas />,
+        text: FaGlobeAmericas,
         url: "https://pad.ucrhighlanders.org/",
       },
       {
-        text: <FaGithub />,
+        text: FaGithub,
         url: "https://github.com/acm-ucr/pad-website",
       },
     ],
@@ -218,11 +235,11 @@ export const projects = [
     image: HISS,
     links: [
       {
-        text: <FaGlobeAmericas />,
+        text: FaGlobeAmericas,
         url: "https://hiss.ucrhighlanders.org/",
       },
       {
-        text: <FaGithub />,
+        text: FaGithub,
         url: "https://github.com/acm-ucr/hiss-website",
       },
     ],

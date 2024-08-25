@@ -1,8 +1,8 @@
-{
-  "compilerOptions": {
-    "paths": {
-      "@/*": ["./src/*"],
-      "@/public/*": ["./public/*"]
-    }
-  }
-}
+// {
+//   "compilerOptions": {
+//     "paths": {
+//       "@/*": ["./src/*"],
+//       "@/public/*": ["./public/*"]
+//     }
+//   }
+// }

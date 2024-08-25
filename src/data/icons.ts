@@ -17,87 +17,89 @@ import { SiCplusplus } from "react-icons/si";
 import { SiCypress } from "react-icons/si";
 import { SiFlask } from "react-icons/si";
 import { SiAdobe } from "react-icons/si";
+import { IconType } from "react-icons";
 // import { FaGit } from "react-icons/fa";
 // import { FaNodeJs } from "react-icons/fa";
 // import { SiOpenai } from "react-icons/si";
 // import { SiGoogleanalytics } from "react-icons/si";
-
-const SKILLS = {
-  Programming: [
-    {
-      name: "C++",
-      icon: <SiCplusplus className="text-tech-cpp" />,
-    },
-    {
-      name: "Python",
-      icon: <FaPython className="text-tech-python" />,
-    },
-    // "HTML/CSS",
-    {
-      name: "Typescript",
-      icon: <SiTypescript className="text-tech-typescript" />,
-    },
-    {
-      name: "Javascript",
-      icon: <SiJavascript className="text-tech-javascript" />,
-    },
-    {
-      name: "Java",
-      icon: <DiJava className="text-6xl -mt-1 text-red-500" />,
-    },
-    {
-      name: "SQL",
-      icon: <PiFileSqlDuotone className="text-tech-cpp" />,
-    },
-  ],
-  "Web Development": [
-    {
-      name: "ReactJS",
-      icon: <SiReact className="text-tech-cpp" />,
-    },
-    {
-      name: "NextJS",
-      icon: <TbBrandNextjs className="text-black" />,
-    },
-    {
-      name: "Tailwind",
-      icon: <SiTailwindcss className="text-tech-tailwind" />,
-    },
-    {
-      name: "Flask",
-      icon: <SiFlask className="text-black" />,
-    },
-    {
-      name: "Framer Motion",
-      icon: <TbBrandFramerMotion className="text-black" />,
-    },
-    {
-      name: "Firebase",
-      icon: <SiFirebase className="text-tech-firebase" />,
-    },
-    {
-      name: "Prisma",
-      icon: <SiPrisma className="text-tech-prisma" />,
-    },
-    {
-      name: "Cypress.io",
-      icon: <SiCypress className="text-tech-cypress" />,
-    },
-    {
-      name: "Postman",
-      icon: <SiPostman className="text-tech-postman" />,
-    },
-  ],
-  Design: [
-    {
-      name: "Figma",
-      icon: <SiFigma className="text-tech-figma" />,
-    },
-    {
-      name: "Adobe",
-      icon: <SiAdobe className="text-red-500" />,
-    },
-  ],
-};
-
-export default SKILLS;
+// type TechStack = {
+//   icon: IconType;
+//   name: string;
+// }
+// export const SKILLS: TechStack = {
+//   Programming: [
+//     {
+//       name: "C++",
+//       icon: <SiCplusplus className="text-tech-cpp" />,
+//     },
+//     {
+//       name: "Python",
+//       icon: <FaPython className="text-tech-python" />,
+//     },
+//     // "HTML/CSS",
+//     {
+//       name: "Typescript",
+//       icon: <SiTypescript className="text-tech-typescript" />,
+//     },
+//     {
+//       name: "Javascript",
+//       icon: <SiJavascript className="text-tech-javascript" />,
+//     },
+//     {
+//       name: "Java",
+//       icon: <DiJava className="text-6xl -mt-1 text-red-500" />,
+//     },
+//     {
+//       name: "SQL",
+//       icon: <PiFileSqlDuotone className="text-tech-cpp" />,
+//     },
+//   ],
+//   "Web Development": [
+//     {
+//       name: "ReactJS",
+//       icon: <SiReact className="text-tech-cpp" />,
+//     },
+//     {
+//       name: "NextJS",
+//       icon: <TbBrandNextjs className="text-black" />,
+//     },
+//     {
+//       name: "Tailwind",
+//       icon: <SiTailwindcss className="text-tech-tailwind" />,
+//     },
+//     {
+//       name: "Flask",
+//       icon: <SiFlask className="text-black" />,
+//     },
+//     {
+//       name: "Framer Motion",
+//       icon: <TbBrandFramerMotion className="text-black" />,
+//     },
+//     {
+//       name: "Firebase",
+//       icon: <SiFirebase className="text-tech-firebase" />,
+//     },
+//     {
+//       name: "Prisma",
+//       icon: <SiPrisma className="text-tech-prisma" />,
+//     },
+//     {
+//       name: "Cypress.io",
+//       icon: <SiCypress className="text-tech-cypress" />,
+//     },
+//     {
+//       name: "Postman",
+//       icon: <SiPostman className="text-tech-postman" />,
+//     },
+//   ],
+//   Design: [
+//     {
+//       name: "Figma",
+//       icon: <SiFigma className="text-tech-figma" />,
+//     },
+//     {
+//       name: "Adobe",
+//       icon: <SiAdobe className="text-red-500" />,
+//     },
+//   ],
+// };

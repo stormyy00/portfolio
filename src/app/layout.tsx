@@ -31,7 +31,7 @@ export default function RootLayout({
           {children}
           <SpeedInsights />
           <Analytics />
-          {/* <Footer /> */}
+          <Footer />
         </div>
       </body>
     </html>

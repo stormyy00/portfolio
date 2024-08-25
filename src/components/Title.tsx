@@ -1,6 +1,6 @@
-import React from "react";
+import React, { ReactNode } from "react";
 
-const Title = ({ text, children }) => {
+const Title = ({ text, children }: { text: string; children: ReactNode }) => {
   return (
     <div className="flex flex-col items-center">
       <p className="m-0 text-[#a19595] font-anticDidone text-3xl md:text-5xl w-fit z-50 drop-shadow-[0_.5px_.5px_rgba(0,0,0,1)]">

@@ -9,7 +9,7 @@ type Social = {
   icon: IconType;
 };
 
-export const Socials = [
+export const Socials: Social[] = [
   {
     path: "https://github.com/stormyy00",
     title: "Github",

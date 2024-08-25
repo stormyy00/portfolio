@@ -83,6 +83,23 @@ export const projects: ProjectType[] = [
     ],
   },
   {
+    title: "Hackathon Website",
+    description: "The hackathon user portal and admin dashboard used",
+    techStack: ["Next.js", "Tailwind", "Cypress", "NextAuth", "Firebase"],
+    link: "https://github.com/acm-ucr/hackathon-website",
+    image: hack,
+    links: [
+      // {
+      //   text: <FaGlobeAmericas />,
+      //   url: "https://www.designverseucr.org/"
+      // },
+      {
+        text: FaGithub,
+        url: "https://github.com/designatucr/designverse2024",
+      },
+    ],
+  },
+  {
     title: "R'Tools",
     description:
       "A site where students can run the essential algorithms with visualizations and logical expression",
@@ -189,23 +206,6 @@ export const projects: ProjectType[] = [
       {
         text: FaGithub,
         url: "https://github.com/stormyy00/PC-Cooling-System",
-      },
-    ],
-  },
-  {
-    title: "Hackathon Website",
-    description: "The hackathon user portal and admin dashboard used",
-    techStack: ["Next.js", "Tailwind", "Cypress", "NextAuth", "Firebase"],
-    link: "https://github.com/acm-ucr/hackathon-website",
-    image: hack,
-    links: [
-      // {
-      //   text: <FaGlobeAmericas />,
-      //   url: "https://www.designverseucr.org/"
-      // },
-      {
-        text: FaGithub,
-        url: "https://github.com/designatucr/designverse2024",
       },
     ],
   },

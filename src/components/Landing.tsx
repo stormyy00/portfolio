@@ -2,7 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import bruh from "@/public/bruh1.JPG";
+import bruh from "../../public/bruh1.webp";
 // import wave from "../../public/wavin.gif";
 const Landing = () => {
   const animation = {
@@ -58,9 +58,10 @@ const Landing = () => {
             >
               What am I doing?
               <div className="flex flex-col  items-start font-normal text-base md:text-base lg:text-xl m-3 mt-2">
-                <div>- Currently leading art factory with 10 devs </div>
-                <div>- Probably buying an iced caramel catte </div>
-                <div> - Commiting to GitHub</div>
+                <div>- Lead Software Engineer for RoseHack </div>
+                <div>- Probably buying an Iced Latte </div>
+                <div>- Interning at Soma Reality as a SWE Intern</div>
+                <div>- Taking some Photgraphs with my DSLR</div>
               </div>
             </motion.div>
           </motion.div>

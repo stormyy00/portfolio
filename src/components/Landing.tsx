@@ -58,9 +58,10 @@ const Landing = () => {
             >
               What am I doing?
               <div className="flex flex-col  items-start font-normal text-base md:text-base lg:text-xl m-3 mt-2">
-                <div>- Currently leading art factory with 10 devs </div>
-                <div>- Probably buying an iced caramel catte </div>
-                <div> - Commiting to GitHub</div>
+                <div>- Lead Software Engineer for RoseHack </div>
+                <div>- Probably buying an Iced Latte </div>
+                <div>- Interning at Soma Reality as a SWE Intern</div>
+                <div>- Taking some Photgraphs with my DSLR</div>
               </div>
             </motion.div>
           </motion.div>

@@ -1,6 +1,14 @@
 import React from "react";
 
-const Experiences = ({ experience }) => {
+const Experiences = ({
+  experience,
+}: {
+  experience: {
+    title: string;
+    description: string[];
+    time: string;
+  };
+}) => {
   return (
     <div className="font-poppins m-0 p-4 w-11/12 h-full flex items-center  gap-1 bg-gray-400 rounded-3xl">
       <div className="text-white font-bold text-base md:text-xl w-8/12 bg-red">

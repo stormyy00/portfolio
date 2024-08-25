@@ -8,7 +8,7 @@ const Sidebar = () => {
 
   return (
     <div className="hidden w-40 lg:flex h-screen items-center left-0 fixed z-50 text-white">
-      <div className=" flex flex-col space-y-2 justify-between items-start w-full mx-6">
+      <div className="flex flex-col space-y-2 justify-between items-start w-full mx-6">
         {navigations.map((item, index) => (
           <Link
             key={index}

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-// import SKILLS from "@/data/icons";
+// import {SKILLS} from "@/data/icons";
 // import Image from "next/image";
 
-const Skills = () => {
-  const [selectedType, setSelectedType] = useState("Programming");
-  const [hoveredTech, setHoveredTech] = useState(null);
+const Skills: React.FC = () => {
+  const [selectedType, setSelectedType] = useState<string>("Programming");
+  const [hoveredTech, setHoveredTech] = useState<TechStack | null>(null);
 
   return (
     <div className="flex flex-col  w-full">
@@ -46,7 +46,14 @@ const Skills = () => {
 };
 
 export default Skills;
+type TechStack = {
+  icon: React.ReactNode;
+  name: string;
+};
 
+type SkillsType = {
+  [key: string]: TechStack[];
+};
 import { SiJavascript } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { DiJava } from "react-icons/di";
@@ -71,7 +78,7 @@ import { SiAdobe } from "react-icons/si";
 // import { SiOpenai } from "react-icons/si";
 // import { SiGoogleanalytics } from "react-icons/si";
 
-const SKILLS = {
+const SKILLS: SkillsType = {
   Programming: [
     {
       name: "C++",

@@ -1,6 +1,7 @@
 import React from "react";
-import { Socials } from "@/data/links.js";
+import { Socials } from "@/data/links";
 import Link from "next/link";
+
 const Footer = () => {
   return (
     <div
@@ -14,7 +15,7 @@ const Footer = () => {
             href={social.path}
             className="text-5xl text-black hover:scale-110 duration-300 px-10  m-1"
           >
-            {social.icon}
+            {React.createElement(social.icon)}
           </Link>
         ))}
       </div>

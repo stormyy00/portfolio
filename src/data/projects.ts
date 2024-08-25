@@ -1,18 +1,35 @@
-import PAD from "@/public/PAD.webp";
-import HISS from "@/public/HISS.webp";
-import Gals from "@/public/galspress.webp";
-import hack from "@/public/hackathon.webp";
-import tools from "@/public/rtools.webp";
-import design from "@/public/designverse.webp";
-import val from "@/public/val.webp";
-import art from "@/public/art3.webp";
-import mood from "@/public/mood.webp";
-import db from "@/public/db.webp";
-import load from "@/public/load.webp";
+import PAD from "@/public/PAD.png";
+import HISS from "@/public/HISS.png";
+import Gals from "@/public/galspress.png";
+import hack from "@/public/hackathon.png";
+import tools from "@/public/rtools.png";
+import design from "@/public/designverse.png";
+import val from "@/public/val.png";
+import art from "@/public/art3.png";
+import mood from "@/public/mood.png";
+import db from "@/public/db.png";
+import load from "@/public/load.jpg";
 import { FaGlobeAmericas } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+// import { IconType } from "react-icons";
+// import { StaticImageData } from "next/image";
+// import { Icon } from "@/types/icons";
+import { ProjectType } from "@/types/project";
+// type ProjectLink = {
+//   text: IconType;
+//   url: string;
+// };
 
-export const projects = [
+// type Project = {
+//   title: string;
+//   description: string;
+//   techStack: string[];
+//   link: string;
+//   image: StaticImageData;
+//   links: ProjectLink[];
+// };
+
+export const projects: ProjectType[] = [
   {
     title: "Pending...",
     description: "Please comeback at a later date to see the next project...",
@@ -21,11 +38,11 @@ export const projects = [
     image: load,
     links: [
       {
-        text: <FaGlobeAmericas />,
+        text: FaGlobeAmericas,
         url: "https://downloadmoreram.com/download.html",
       },
       {
-        text: <FaGithub />,
+        text: FaGithub,
         url: "https://www.youtube.com/watch?v=ze-POGS94-k",
       },
     ],
@@ -42,7 +59,7 @@ export const projects = [
       //   url: "https://www.designverseucr.org/",
       // },
       {
-        text: <FaGithub />,
+        text: FaGithub,
         url: "https://github.com/rfairooz/GalsPress",
       },
     ],
@@ -60,30 +77,26 @@ export const projects = [
       //   url: "https://rtools.ucrhighlanders.org/",
       // },
       {
-        text: <FaGithub />,
+        text: FaGithub,
         url: "https://github.com/stormyy00/HackTech2024",
       },
     ],
   },
   {
-    title: "Game Rental Store",
+    title: "Hackathon Website",
     description:
-      "A site where you can rent out your favorite games at the lowest price",
-    techStack: ["Next.js", "Java", "PostgreSQL", "Redux", "Prisma", "Tailwind"],
-    link: "https://github.com/stormyy00/valentine",
-    image: db,
+      "The hackathon user portal and admin dashboard used to give developers at UCR and other schools the same playing field for hackathon tech",
+    techStack: ["Next.js", "Tailwind", "Cypress", "NextAuth", "Firebase"],
+    link: "https://github.com/acm-ucr/hackathon-website",
+    image: hack,
     links: [
+      // {
+      //   text: <FaGlobeAmericas />,
+      //   url: "https://www.designverseucr.org/"
+      // },
       {
-        text: <FaGlobeAmericas />,
-        url: "https://cs166-frontend.vercel.app/table/catalog",
-      },
-      {
-        text: <FaGithub />,
-        url: "hhttps://github.com/stormyy00/cs166-frontend",
-      },
-      {
-        text: <FaGithub />,
-        url: "https://github.com/stormyy00/cs166",
+        text: FaGithub,
+        url: "https://github.com/designatucr/designverse2024",
       },
     ],
   },
@@ -96,29 +109,34 @@ export const projects = [
     image: tools,
     links: [
       {
-        text: <FaGlobeAmericas />,
+        text: FaGlobeAmericas,
         url: "https://rtools.ucrhighlanders.org/",
       },
       {
-        text: <FaGithub />,
+        text: FaGithub,
         url: "https://github.com/acm-ucr/r-tools",
       },
     ],
   },
   {
-    title: "Hackathon Website",
-    description: "The hackathon user portal and admin dashboard used",
-    techStack: ["Next.js", "Tailwind", "Cypress", "NextAuth", "Firebase"],
-    link: "https://github.com/acm-ucr/hackathon-website",
-    image: hack,
+    title: "Game Rental Store",
+    description:
+      "A site where you can rent out your favorite games at the lowest price",
+    techStack: ["Next.js", "Java", "PostgreSQL", "Redux", "Prisma", "Tailwind"],
+    link: "https://github.com/stormyy00/valentine",
+    image: db,
     links: [
-      // {
-      //   text: <FaGlobeAmericas />,
-      //   url: "https://www.designverseucr.org/"
-      // },
       {
-        text: <FaGithub />,
-        url: "https://github.com/designatucr/designverse2024",
+        text: FaGlobeAmericas,
+        url: "https://cs166-frontend.vercel.app/table/catalog",
+      },
+      {
+        text: FaGithub,
+        url: "hhttps://github.com/stormyy00/cs166-frontend",
+      },
+      {
+        text: FaGithub,
+        url: "https://github.com/stormyy00/cs166",
       },
     ],
   },
@@ -131,11 +149,11 @@ export const projects = [
     image: art,
     links: [
       {
-        text: <FaGlobeAmericas />,
+        text: FaGlobeAmericas,
         url: "https://artfactory.ucrhighlanders.org/",
       },
       {
-        text: <FaGithub />,
+        text: FaGithub,
         url: "https://github.com/acm-ucr/art-factory-website",
       },
     ],
@@ -149,11 +167,11 @@ export const projects = [
     image: val,
     links: [
       {
-        text: <FaGlobeAmericas />,
+        text: FaGlobeAmericas,
         url: "https://wyubmv.vercel.app/",
       },
       {
-        text: <FaGithub />,
+        text: FaGithub,
         url: "https://github.com/stormyy00/valentine",
       },
     ],
@@ -166,11 +184,11 @@ export const projects = [
     image: design,
     links: [
       {
-        text: <FaGlobeAmericas />,
+        text: FaGlobeAmericas,
         url: "https://www.designverseucr.org/",
       },
       {
-        text: <FaGithub />,
+        text: FaGithub,
         url: "https://github.com/designatucr/designverse2024",
       },
     ],
@@ -187,7 +205,7 @@ export const projects = [
       //   url: "https://www.designverseucr.org/"
       // },
       {
-        text: <FaGithub />,
+        text: FaGithub,
         url: "https://github.com/stormyy00/PC-Cooling-System",
       },
     ],
@@ -201,11 +219,11 @@ export const projects = [
     image: PAD,
     links: [
       {
-        text: <FaGlobeAmericas />,
+        text: FaGlobeAmericas,
         url: "https://pad.ucrhighlanders.org/",
       },
       {
-        text: <FaGithub />,
+        text: FaGithub,
         url: "https://github.com/acm-ucr/pad-website",
       },
     ],
@@ -218,11 +236,11 @@ export const projects = [
     image: HISS,
     links: [
       {
-        text: <FaGlobeAmericas />,
+        text: FaGlobeAmericas,
         url: "https://hiss.ucrhighlanders.org/",
       },
       {
-        text: <FaGithub />,
+        text: FaGithub,
         url: "https://github.com/acm-ucr/hiss-website",
       },
     ],

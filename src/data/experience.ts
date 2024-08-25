@@ -48,7 +48,15 @@ export const exper = [
       "Currently working on the backend to create posts and events",
       "",
     ],
-    time: "June 2023 - Present",
+    time: "June 2024 - Present",
+  },
+  {
+    title: "Lead Software Engineer @ RoseHack",
+    description: [
+      "Migrating Codebase to Typescript and creating a statistics tool",
+      "",
+    ],
+    time: "June 2024 - Present",
   },
   {
     title: "CS 110 Grader",

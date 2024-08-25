@@ -61,7 +61,7 @@ const Landing = () => {
                 <div>- Lead Software Engineer for RoseHack </div>
                 <div>- Probably buying an Iced Latte </div>
                 <div>- Interning at Soma Reality as a SWE Intern</div>
-                <div>- Taking some Photgraphs with my DSLR</div>
+                <div>- Taking photos on my DSLR</div>
               </div>
             </motion.div>
           </motion.div>

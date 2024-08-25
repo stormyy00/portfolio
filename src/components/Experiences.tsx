@@ -1,11 +1,4 @@
 import React from "react";
-interface ExperienceProps {
-  experience: {
-    title: string;
-    description: string[];
-    time: string;
-  };
-}
 
 const Experiences = ({
   experience,

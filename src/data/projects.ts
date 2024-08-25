@@ -11,10 +11,10 @@ import db from "@/public/db.png";
 import load from "@/public/load.jpg";
 import { FaGlobeAmericas } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { IconType } from "react-icons";
-import { StaticImageData } from "next/image";
-import { Icon } from "@/types/icons";
-import { ProjectType } from "@/types/index";
+// import { IconType } from "react-icons";
+// import { StaticImageData } from "next/image";
+// import { Icon } from "@/types/icons";
+import { ProjectType } from "@/types/project";
 // type ProjectLink = {
 //   text: IconType;
 //   url: string;
@@ -84,7 +84,8 @@ export const projects: ProjectType[] = [
   },
   {
     title: "Hackathon Website",
-    description: "The hackathon user portal and admin dashboard used",
+    description:
+      "The hackathon user portal and admin dashboard used to give developers at UCR and other schools the same playing field for hackathon tech",
     techStack: ["Next.js", "Tailwind", "Cypress", "NextAuth", "Firebase"],
     link: "https://github.com/acm-ucr/hackathon-website",
     image: hack,

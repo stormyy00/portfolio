@@ -41,7 +41,7 @@ type experiences = {
   description: string[];
   time: string;
 };
-export const exper = [
+export const exper: experiences[] = [
   {
     title: "Software Engineer Intern @ Soma Reality",
     description: [

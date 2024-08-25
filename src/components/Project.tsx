@@ -3,10 +3,10 @@ import Image from "next/image";
 // import snoopy from "../../public/stock.jpeg";
 import Link from "next/link";
 // import PAD from "../../public/PAD.png";
-import { ProjectType } from "@/types/index";
-interface ProjectProps {
+import { ProjectType } from "@/types/project";
+type ProjectProps = {
   project: ProjectType;
-}
+};
 const Project: React.FC<ProjectProps> = ({ project }) => {
   return (
     <div className="font-poppins rounded-3xl flex flex-col gap-3 items-center justify-center m-3 p-0  bg-gradient-to-br from-[#f7e7f9] to-[#e3efff] from-10% w-11/12 md:w-11/12 h-full text-black shadow-md hover:-translate-y-1 hover:drop-shadow-md duration-500">

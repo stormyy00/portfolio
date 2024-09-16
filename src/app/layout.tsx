@@ -6,6 +6,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
 import { Montserrat } from "next/font/google";
 import Footer from "@/components/Footer";
+import { ThemeProvider } from "@/components/theme.provider";
 // import Sidebar from "@/components/Sidebar";
 
 const montserrat = Montserrat({
@@ -28,10 +29,17 @@ export default function RootLayout({
     <html lang="en" className={` ${montserrat.variable}`}>
       <body>
         <div className=" bg-gray-200 w-full h-full flex font-serif items-center justify-center flex-col overflow-hidden z-10">
-          {children}
-          <SpeedInsights />
-          <Analytics />
-          <Footer />
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            {children}
+            <SpeedInsights />
+            <Analytics />
+            <Footer />
+          </ThemeProvider>
         </div>
       </body>
     </html>

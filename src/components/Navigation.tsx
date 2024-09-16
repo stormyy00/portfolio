@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+// import Mode from "./Mode";
 // import { FaBars } from "react-icons/fa";
 // import Link from "next/link";
 // import { Link } from "react-scroll";

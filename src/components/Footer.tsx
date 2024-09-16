@@ -19,6 +19,12 @@ const Footer = () => {
           </Link>
         ))}
       </div>
+      <Link
+        href={"blog"}
+        className="text-2xl font-semibold  no-underline text-black mt-4"
+      >
+        BLOG
+      </Link>
       <div className="text-black mt-3">Copyright @ Jonathan Trujillo</div>
     </div>
   );
